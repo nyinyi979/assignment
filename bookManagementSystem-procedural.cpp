@@ -9,6 +9,7 @@ struct Book{
 	string rating;
 	int counts;
 };
+
 void addABook(){
 	string n_,pd,a,r;
 	int c;

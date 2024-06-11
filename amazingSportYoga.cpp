@@ -542,7 +542,10 @@ int main(){
         }
         goto customerScreenLabel;
     }
-    else if(menuCode==0) return 0;
+    else if(menuCode==0) {
+        cout<<"Goodbye!";
+        return 0;
+    }
     else goto menuLabel;
 }
 
